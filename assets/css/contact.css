@@ -1,0 +1,65 @@
+body{
+    margin:0% 
+}
+
+main {
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+
+    border: 3px solid #F4E1B4;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+    margin: 50px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3B82F6;
+}
+
+.form__container h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form__container input[type="text"],
+.form__container input[type="email"],
+.form__container textarea {
+    padding: 10px;
+    border: 1px solid #F4E1B4;
+    border-radius: 5px;
+    width: 90%;
+}
+
+input[type="submit"] {
+    background-color: #F4E1B4;
+    color: #3B82F6;
+    border: 2px solid #3B82F6;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 98%;
+}
+
+input[type="submit"]:hover {
+    background-color: whitesmoke;
+}
+
+.confirmation-message {
+    display: none;
+    background-color: #F4E1B4;
+    color: #3B82F6;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#confirm:checked~.confirmation-message {
+    display: block;
+}

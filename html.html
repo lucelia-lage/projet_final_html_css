@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/html.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <title>HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/images/logo.png" alt="Logo">
+
+
+        <nav class="menu_desktop">
+            <ul class="menu__items">
+                <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                <div class="menu__container__contact">
+                    <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                </div>
+            </ul>
+        </nav>
+
+
+        <div class="menu_burger">
+            <input type="checkbox" id="burger_menu" class="burger_checkbox">
+            <label for="burger_menu" class="burger_menu">
+                <img src="./assets/images/burger_menu.svg" alt="Menu">
+            </label>
+
+            <nav class="menu_mobile">
+                <ul class="menu__items">
+                    <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                    <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                    <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                    <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                    <div class="menu__container__contact">
+                        <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="main__container__html1">
+
+            <article class="main__title__description__image__html">
+
+                <img src="./assets/images/html-logo.png" alt="Logo HTML">
+
+                <div class="text__container__html">
+                    <h2> <marquee behavior="accelerometer" direction="required">HTML : HyperText Markup Language</marquee></h2>
+                    <p>HTML, pour HyperText Markup Language, est un langage de balisage qui sert à structurer et
+                        afficher le
+                        contenu d'une page web.
+                        L'hypertexte permet de lier des pages entre elles, formant ainsi la célèbre "toile" du web.
+                        Grâce à
+                        ces liens, vous devenez un acteur actif du World Wide Web.
+                        Le HTML utilise des balises pour organiser le contenu : texte, images ou médias.</p>
+                </div>
+            </article>
+
+            <div class="video">
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/hIEZ8xpdBts?si=HQBjYr22wd-_MqOX"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="articles__container__html">
+                <article class="article__item__html">
+                    <h2>L'anatomie d'un élément HTML</h2>
+                    <p>Un élément HTML est constitué de plusieurs parties :
+
+                        <li>Balise d'ouverture :
+                            Elle délimite le début de l'élément. Elle est entourée de chevrons (<>) et contient le nom
+                                de
+                                l'élément.
+                        </li>
+                        <li> Contenu :
+                            Le texte ou les éléments enfants qui se trouvent entre les balises.
+                        </li>
+                        <li>Balise de fermeture :
+                            Elle marque la fin de l'élément, précédée d'une barre oblique (/).
+                        </li>
+                        <li>Attributs (optionnels) :
+                            Placés dans la balise d'ouverture, ils ajoutent des informations supplémentaires à l'élément
+                            (comme class, id, ou src).
+                        </li>
+                </article>
+
+                <article class="article__item__html">
+                    <h2>L'anatomie d'un document HTML</h2>
+
+                    <p>
+                        Un document HTML est structuré en plusieurs sections essentielles :
+
+                        <li>Head : Contient des informations non visibles pour l'utilisateur, comme le titre de la page,
+                            les
+                            métadonnées, et les liens vers des fichiers externes (CSS, JavaScript).</li>
+
+                        <li>Header : La section en haut de la page, souvent utilisée pour le logo, la navigation, et les
+                            titres
+                            principaux.</li>
+
+                        <li>Body : C'est la partie visible de la page où se trouve tout le contenu (texte, images,
+                            vidéos,
+                            etc.).</li>
+
+                        <li> Main : Contient le contenu principal de la page, souvent utilisé pour regrouper
+                            l'information
+                            la
+                            plus importante.</li>
+
+                        <li>Footer : La section en bas de la page, généralement utilisée pour des informations
+                            supplémentaires
+                            comme les contacts, les mentions légales, ou les liens vers les réseaux sociaux.</li>
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="main__container__html2">
+
+            <div class="spreedsheet">
+                <table border="1">
+                    <tr>
+                        <th scope="col">Balise</th>
+                        <th scope="col"> Description</th>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> &lt;!doctype&gt;</th>
+                        <td>Numéro de version du langage HTML utilisé</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;!-- --&gt;</th>
+                        <td>Commentaire</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;abbr&gt;</th>
+                        <td>Abréviation</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;acronym&gt;</th>
+                        <td>Numéro de version du langage HTML utilisé</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;address&gt;</th>
+                        <td>URL sous forme textuel, sans utilisation de lien hypertexte (italique)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;a&gt;</th>
+                        <td>Création d'une ancre pour liens hypertexte</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;area&gt;</th>
+                        <td>Permet de définir une zone cliquable dans la page</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;body&gt;</th>
+                        <td>Encadre le corps d'un fichier HTML</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;br&gt;</th>
+                        <td>Saut de ligne</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;div&gt;</th>
+                        <td>Implémente une feuille de style par bloc entier</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;form&gt;</th>
+                        <td> Insertion d'un formulaire</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;head&gt;</th>
+                        <td> En-tête d'un fichier HTML</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;i&gt;</th>
+                        <td>Italique</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;img&gt;</th>
+                        <td>Insertion d'une image</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;kbd&gt;</th>
+                        <td>Texte type "machine à écrire"</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;legend&gt;</th>
+                        <td>Légende de tableau</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;li&gt;</th>
+                        <td> Elément d'une liste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;map&gt;</th>
+                        <td>Définit une zone cliquable</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;marquee&gt;</th>
+                        <td>Texte défilant</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;ol&gt;</th>
+                        <td> Liste numérotée</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;p&gt;</th>
+                        <td> Début d'un paragraphe, saute 2 lignes</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;s&gt;</th>
+                        <td>Texte barré</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;strong&gt;</th>
+                        <td> Texte en gras</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;table&gt;</th>
+                        <td>Tableau</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;ul&gt;</th>
+                        <td> Liste non-numéroté</td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer__container">
+
+            <div class="footer__container__order1">
+                <h2>Nos coordonnées</h2>
+
+                <div class="footer__info__item">
+                    <img src="./assets/images/phone.png" alt="téléphone">
+                    <a href="tel:+33">06 01 02 03 04</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/e-mail.png" alt="e-mail">
+                    <a href="mailto:">wecandev@ri7.fr</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/location.png" alt="adresse">
+                    <a
+                        href="https://www.google.fr/maps/place/Rue+du+Th%C3%A9atre+Fran%C3%A7ais,+13001+Marseille/@43.2973627,5.3797765,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9c0bd2265b439:0x96c89a92d0694ce1!8m2!3d43.2973627!4d5.3823514!16s%2Fg%2F1td8vq2t?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3Dtarget=">01
+                        rue du théâtre français 13001 Marseille</a>
+                </div>
+                <div class=footer__container__logos>
+
+
+                    <a href="#"><img src="./assets/images/FB.png" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/images/Insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="./assets/images/Linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="./assets/images/Youtube.png" alt="Youtube"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__container__order2">
+            <h2>We Can Dev</h2>
+            <nav>
+                <ul>
+                    <li> <a href="#">Faire un don</a></li>
+                    <li> <a href="#">Nos actions</a></li>
+                    <li> <a href="#">Nos bilans</a></li>
+                    <li> <a href="#">Galerie de photos</a></li>
+                    <li> <a href="#">Ils parlent de nous...</a></li>
+                    <li> <a href="#">Nos partenaires</a></li>
+                    <li> <a href="#">Rejoignez-nous</a></li>
+                    <li> <a href="#">Mentions légales</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="footer__container__order3">
+            <p>© 2025 We Can Dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

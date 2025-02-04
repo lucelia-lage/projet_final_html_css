@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/javascript.css">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    
+    <header>
+        <img src="./assets/images/logo.png" alt="Logo">
+
+
+        <nav class="menu_desktop">
+            <ul class="menu__items">
+                <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                <div class="menu__container__contact">
+                    <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                </div>
+            </ul>
+        </nav>
+
+
+        <div class="menu_burger">
+            <input type="checkbox" id="burger_menu" class="burger_checkbox">
+            <label for="burger_menu" class="burger_menu">
+                <img src="./assets/images/burger_menu.svg" alt="Menu">
+            </label>
+
+            <nav class="menu_mobile">
+                <ul class="menu__items">
+                    <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                    <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                    <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                    <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                    <div class="menu__container__contact">
+                        <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="main__container__javascript">
+
+
+            <article class="main__title__description__image__javascript">
+
+                <img src="./assets/images/javascript-logo.png" alt="Logo JavaScript">
+
+                <div class="text__container__javascript">
+                    <h2>
+                        <marquee behavior="accelerometer" direction="required">JavaScript : Langage de programmation
+                            pour le Web</marquee>
+                    </h2>
+                    <p>JavaScript est un langage de programmation utilisé pour rendre les pages web interactives.
+                        Grâce
+                        à JavaScript, vous pouvez manipuler le contenu de la page, gérer des événements utilisateur
+                        et
+                        créer des animations, des jeux, et bien plus encore.</p>
+                </div>
+            </article>
+
+            <div class="video">
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/v3Ho7QVaTXM?si=zwGWTZehRDKDqj1E"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="articles__container__javascript">
+                <article class="article__item__javascript">
+                    <h2>La syntaxe de JavaScript</h2>
+                    <p>JavaScript suit une syntaxe de programmation de base composée de :</p>
+                    <ul>
+                        <li><strong>Variables :</strong> Elles stockent des valeurs et peuvent être déclarées avec
+                            <code>let</code>, <code>const</code>, ou <code>var</code>.
+                        </li>
+                        <li><strong>Fonctions :</strong> Elles regroupent des instructions exécutées à la demande,
+                            définies
+                            avec le mot-clé <code>function</code>.</li>
+                        <li><strong>Événements :</strong> Ils sont utilisés pour interagir avec l'utilisateur, comme
+                            <code>onclick</code>, <code>onload</code>, etc.
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="article__item__javascript">
+                    <h2>Exemple de code JavaScript</h2>
+                    <p>Voici un exemple simple de fonction JavaScript qui affiche un message :</p>
+                    <code>
+                        function afficherMessage() {
+                            alert("Bienvenue sur notre site !");
+                        }
+                        </code>
+                    <p>Cette fonction affiche une alerte lorsque l'on l'appelle, par exemple avec un événement
+                        <code>onclick</code>.
+                    </p>
+                </article>
+
+                <article class="article__item__javascript">
+                    <h2>Interaction avec HTML</h2>
+                    <p>JavaScript peut manipuler les éléments HTML en utilisant le DOM (Document Object Model). Voici un
+                        exemple pour changer le contenu d'un élément HTML :</p>
+                    <code>
+                        document.getElementById ("monElement"). innerHTML = "Nouveau contenu";
+                        </code>
+                    </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer__container">
+
+            <div class="footer__container__order1">
+                <h2>Nos coordonnées</h2>
+
+                <div class="footer__info__item">
+                    <img src="./assets/images/phone.png" alt="téléphone">
+                    <a href="tel:+33">06 01 02 03 04</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/e-mail.png" alt="e-mail">
+                    <a href="mailto:">wecandev@ri7.fr</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/location.png" alt="adresse">
+                    <a
+                        href="https://www.google.fr/maps/place/Rue+du+Th%C3%A9atre+Fran%C3%A7ais,+13001+Marseille/@43.2973627,5.3797765,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9c0bd2265b439:0x96c89a92d0694ce1!8m2!3d43.2973627!4d5.3823514!16s%2Fg%2F1td8vq2t?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3Dtarget=">01
+                        rue du théâtre français 13001 Marseille</a>
+                </div>
+                <div class=footer__container__logos>
+
+
+                    <a href="#"><img src="./assets/images/FB.png" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/images/Insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="./assets/images/Linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="./assets/images/Youtube.png" alt="Youtube"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__container__order2">
+            <h2>We Can Dev</h2>
+            <nav>
+                <ul>
+                    <li> <a href="#">Faire un don</a></li>
+                    <li> <a href="#">Nos actions</a></li>
+                    <li> <a href="#">Nos bilans</a></li>
+                    <li> <a href="#">Galerie de photos</a></li>
+                    <li> <a href="#">Ils parlent de nous...</a></li>
+                    <li> <a href="#">Nos partenaires</a></li>
+                    <li> <a href="#">Rejoignez-nous</a></li>
+                    <li> <a href="#">Mentions légales</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="footer__container__order3">
+            <p>© 2025 We Can Dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

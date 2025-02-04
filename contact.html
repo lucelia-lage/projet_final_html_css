@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="">
+    <title>Nous Contacter</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./assets/images/logo.png" alt="Logo">
+
+
+        <nav class="menu_desktop">
+            <ul class="menu__items">
+                <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                <div class="menu__container__contact">
+                    <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                </div>
+            </ul>
+        </nav>
+
+
+        <div class="menu_burger">
+            <input type="checkbox" id="burger_menu" class="burger_checkbox">
+            <label for="burger_menu" class="burger_menu">
+                <img src="./assets/images/burger_menu.svg" alt="Menu">
+            </label>
+
+            <nav class="menu_mobile">
+                <ul class="menu__items">
+                    <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
+                    <li><a href="http://127.0.0.1:5500/html.html">HTML</a></li>
+                    <li><a href="http://127.0.0.1:5500/css.html">CSS</a></li>
+                    <li><a href="http://127.0.0.1:5500/javascript.html">JavaScript</a></li>
+                    <div class="menu__container__contact">
+                        <li><a href="http://127.0.0.1:5500/contact.html">Nous Contacter</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main__container__contact">
+
+                <div class="form__container">
+                    <h1>Nous Contacter</h1>
+                    <form action="#" method="POST" onsubmit="return false;">
+                        <div>
+                            <label for="name">Nom</label>
+                            <input id="name" type="text" required>
+                        </div>
+                        <div>
+                            <label for="fname">Prénom</label>
+                            <input id="fname" type="text" required>
+                        </div>
+                        <div>
+                            <label for="email">Adresse mail</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="coments">Votre message</label><br>
+                            <textarea name="coments" id="coments" required></textarea>
+                        </div>
+                        <input type="submit" value="Envoyer"
+                            onclick="document.getElementById('confirmation').style.display='block';">
+                    </form>
+
+                    <div id="confirmation" class="confirmation-message">Votre message a bien été reçu.</div>
+                </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer__container">
+
+            <div class="footer__container__order1">
+                <h2>Nos coordonnées</h2>
+
+                <div class="footer__info__item">
+                    <img src="./assets/images/phone.png" alt="téléphone">
+                    <a href="tel:+33">06 01 02 03 04</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/e-mail.png" alt="e-mail">
+                    <a href="mailto:">wecandev@ri7.fr</a>
+                </div>
+                <div class="footer__info__item">
+                    <img src="./assets/images/location.png" alt="adresse">
+                    <a
+                        href="https://www.google.fr/maps/place/Rue+du+Th%C3%A9atre+Fran%C3%A7ais,+13001+Marseille/@43.2973627,5.3797765,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9c0bd2265b439:0x96c89a92d0694ce1!8m2!3d43.2973627!4d5.3823514!16s%2Fg%2F1td8vq2t?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3Dtarget=">01
+                        rue du théâtre français 13001 Marseille</a>
+                </div>
+                <div class=footer__container__logos>
+
+
+                    <a href="#"><img src="./assets/images/FB.png" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/images/Insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="./assets/images/Linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="./assets/images/Youtube.png" alt="Youtube"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__container__order2">
+            <h2>We Can Dev</h2>
+            <nav>
+                <ul>
+                    <li> <a href="#">Faire un don</a></li>
+                    <li> <a href="#">Nos actions</a></li>
+                    <li> <a href="#">Nos bilans</a></li>
+                    <li> <a href="#">Galerie de photos</a></li>
+                    <li> <a href="#">Ils parlent de nous...</a></li>
+                    <li> <a href="#">Nos partenaires</a></li>
+                    <li> <a href="#">Rejoignez-nous</a></li>
+                    <li> <a href="#">Mentions légales</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="footer__container__order3">
+            <p>© 2025 We Can Dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
