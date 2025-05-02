@@ -71,7 +71,7 @@ main {
     justify-content: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) { 
     .main__container__css {
         display: flex;
         flex-direction: column;
@@ -103,3 +103,16 @@ main {
        overflow-x: hidden; 
     }
 }
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+    font-size: 0.9em;
+}
+

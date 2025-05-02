@@ -32,8 +32,6 @@ header img {
 .menu__items a:hover {
     color: rgb(132, 65, 6);
     display: inline-block;
-    transform: translateY(-5px);
-    transform: rotate(180deg);
 }
 
 .menu__container__contact {
@@ -47,9 +45,7 @@ header img {
 
 .menu__container__contact:hover {
     display: inline-block;
-    transform: translateY(-5px);
     color: rgb(132, 65, 6);
-    transform: rotate(180deg);
 }
 
 @keyframes pulse {

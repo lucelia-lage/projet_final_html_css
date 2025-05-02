@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="">
     <title>Nous Contacter</title>
 </head>
+
 <body>
-    
+
     <header>
         <img src="./assets/images/logo.png" alt="Logo">
 
@@ -51,31 +53,31 @@
     <main>
         <div class="main__container__contact">
 
-                <div class="form__container">
-                    <h1>Nous Contacter</h1>
-                    <form action="#" method="POST" onsubmit="return false;">
-                        <div>
-                            <label for="name">Nom</label>
-                            <input id="name" type="text" required>
-                        </div>
-                        <div>
-                            <label for="fname">Prénom</label>
-                            <input id="fname" type="text" required>
-                        </div>
-                        <div>
-                            <label for="email">Adresse mail</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div>
-                            <label for="coments">Votre message</label><br>
-                            <textarea name="coments" id="coments" required></textarea>
-                        </div>
-                        <input type="submit" value="Envoyer"
-                            onclick="document.getElementById('confirmation').style.display='block';">
-                    </form>
+            <div class="form__container">
+                <h1>Nous Contacter</h1>
+                <form action="#" method="POST" onsubmit="return false;">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input id="name" type="text" required>
+                    </div>
+                    <div>
+                        <label for="fname">Prénom</label>
+                        <input id="fname" type="text" required>
+                    </div>
+                    <div>
+                        <label for="email">Adresse mail</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="coments">Votre message</label><br>
+                        <textarea name="coments" id="coments" required></textarea>
+                    </div>
+                    <input type="submit" value="Envoyer"
+                        onclick="document.getElementById('confirmation').style.display='block';">
+                </form>
 
-                    <div id="confirmation" class="confirmation-message">Votre message a bien été reçu.</div>
-                </div>
+                <div id="confirmation" class="confirmation-message">Votre message a bien été reçu.</div>
+            </div>
 
         </div>
     </main>
@@ -135,4 +137,5 @@
         </div>
     </footer>
 </body>
+
 </html>

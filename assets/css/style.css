@@ -82,7 +82,6 @@ main {
         width: 60%;
     }
 
-
     .articles__container {
         display: flex;
         flex-direction: column;
@@ -100,3 +99,4 @@ main {
         overflow-x: hidden;
     }
 }
+
