@@ -9,8 +9,8 @@ Objectifs :
 - Créer un formulaire de contact (sans traitement côté serveur).
 
 Stack utilisée :
-- HTML5;
-- CSS3 (sans framework).
+- HTML;
+- CSS.
 
 Remarques :
 Ce site est fictif : la majorité des liens ne sont pas fonctionnels.
